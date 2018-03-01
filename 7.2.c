@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
     int i,n,f=0;
     char a[100];
@@ -22,4 +22,6 @@ void main()
     {
         printf("The given string is not in binary representation");
     }
+
+    return 0;
 }
